@@ -55,7 +55,7 @@ def main():
                                         break
                 except Exception:
                     pass  # Ignore devices that cannot be connected to
-                print(f"{device.address} {device.name} {asterisk}")
+                print(f"{device.address} {device.name} {asterisk} (RSSI: {device.rssi} dBm)")
 
         asyncio.run(scan_and_list_devices())
 
