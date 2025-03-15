@@ -1,0 +1,13 @@
+bleterminal.egg-info/
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.out
+*.log
+*.vscode/
+.vscode/

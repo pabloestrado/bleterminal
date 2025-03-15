@@ -1,0 +1,4 @@
+argparse  # Included for completeness; not needed for Python 3.2+
+asyncio  # Included for completeness; not needed for Python 3.3+
+bleak  # For BLE operations
+prompt_toolkit  # For interactive command-line prompts
